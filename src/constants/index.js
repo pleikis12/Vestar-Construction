@@ -1,8 +1,4 @@
 import {
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitImage2,
   chromecast,
   disc02,
   discord,
@@ -24,14 +20,13 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
-  twitter,
   yourlogo,
   terassos1,
   nightclub2,
   darbenai1,
   pasakele1,
   melnarage1,
+  vilmiskes1,
 } from "../assets";
 
 export const navigation = [
@@ -161,17 +156,17 @@ export const benefits = [
     id: "0",
     title: "Palangos Projektai",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
-    backgroundUrl: "assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    backgroundUrl: "assets/palanga/vilmiskes/Vilmiskes1.jpg",
+    imageUrl: vilmiskes1,
+    pageUrl: "../palanga",
   },
   {
     id: "1",
     title: "Klaipedos Projektai",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
     backgroundUrl: "assets/klaipeda/melnerage/Melnarage4.jpg",
-    iconUrl: benefitIcon2,
     imageUrl: melnarage1,
+    pageUrl: "../klaipeda",
     light: true,
   },
   {
@@ -179,34 +174,34 @@ export const benefits = [
     title: "Gargzdu Projektai",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
     backgroundUrl: "assets/gargzdai/pasakele/Darzelis1.jpg",
-    iconUrl: benefitIcon3,
     imageUrl: pasakele1,
+    pageUrl: "../gargzdai",
   },
   {
     id: "3",
     title: "Anglijos Projektai",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
     backgroundUrl: "assets/anglija/epping-nightclub/Nightclub2.jpg",
-    iconUrl: benefitIcon3,
     imageUrl: nightclub2,
     light: true,
+    pageUrl: "../anglija",
   },
   {
     id: "4",
     title: "Darbenu Projektai",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
     backgroundUrl: "assets/darbenai/palangos-gatve/Darbenai1.jpg",
-    iconUrl: benefitIcon3,
     imageUrl: darbenai1,
+    pageUrl: "../darbenai",
   },
   {
     id: "5",
     title: "Terassos",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
     backgroundUrl: "assets/terassos/Terassos1.jpg",
-    iconUrl: benefitIcon3,
     imageUrl: terassos1,
     light: true,
+    pageUrl: "../terassos",
   },
 ];
 
@@ -216,13 +211,5 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "https://facebook.com",
-  },
-];
-
-export const pages = [
-  {
-    id: "0",
-    title: "Palanga",
-    url: "../pages/Palanga.jsx",
   },
 ];

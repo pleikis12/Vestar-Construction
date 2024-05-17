@@ -1,9 +1,13 @@
-import { heroBackground } from "../assets";
-import Section from "../components/Section";
+import React from "react";
+import { heroBackground } from "../../assets";
+import Section from "../Section";
+import Footer from "../Footer";
+import Header from "../Header";
 
-const noPage = () => {
+const Anglija = () => {
   return (
     <div>
+      <Header />
       <Section
         className="pt-[12rem]"
         crosses
@@ -13,12 +17,12 @@ const noPage = () => {
         <div className="container relative">
           <div
             className="relative z-1 max-w-[62rem] 
-        mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb:
-        [6.25rem]"
+            mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb:
+            [6.25rem]"
           >
             <h1 className="h1 mb-6">
-              Error 404:{" "}
-              <span className="inline-block relative">Page not Found </span>
+              Sveiki Atvyke I Anglijos{" "}
+              <span className="inline-block relative">Gallerija </span>
             </h1>
           </div>
           <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -34,8 +38,9 @@ const noPage = () => {
           </div>
         </div>
       </Section>
+      <Footer />
     </div>
   );
 };
 
-export default noPage;
+export default Anglija;

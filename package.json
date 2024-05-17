@@ -1,6 +1,7 @@
 {
   "name": "vestarconstruction",
   "private": true,
+  "homepage": "http://localhost:5173/home",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

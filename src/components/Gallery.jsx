@@ -4,9 +4,8 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-import Palanga from "../pages/Palanga";
 import Button from "./Button";
-import { Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   return (
@@ -27,18 +26,19 @@ const Gallery = () => {
                 <h5 className="h5 mb-5 ">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
               </div>
-              <div className="relative z-1 flex items-center mt-auto ml-[3rem] ">
-                <Button
-                  onClick={() => Navigate("../pages/Palanga")}
-                  className="ml-auto font-code text-xs font-bold text-n-1
+              <Link to={item.pageUrl}>
+                <div className="relative z-1 flex items-center mt-auto ml-[3rem] ">
+                  <Button
+                    className="ml-auto font-code text-xs font-bold text-n-1
                   uppercase tracking-wider hover:text-n-2/35 "
-                >
-                  {" "}
-                  Daugiau
-                </Button>
+                  >
+                    {" "}
+                    Daugiau
+                  </Button>
 
-                <Arrow />
-              </div>
+                  <Arrow />
+                </div>
+              </Link>
 
               {item.light && <GradientLight />}
 

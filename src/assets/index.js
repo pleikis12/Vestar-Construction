@@ -128,6 +128,20 @@ import melnarage2 from "./klaipeda/melnerage/Melnarage2.jpg";
 import melnarage3 from "./klaipeda/melnerage/Melnarage3.jpg";
 import melnarage4 from "./klaipeda/melnerage/Melnarage4.jpg";
 
+import vilmiskes1 from "./palanga/vilmiskes/Vilmiskes1.jpg";
+import vilmiskes2 from "./palanga/vilmiskes/Vilmiskes2.jpg";
+import vilmiskes3 from "./palanga/vilmiskes/Vilmiskes3.jpg";
+import vilmiskes4 from "./palanga/vilmiskes/Vilmiskes4.jpg";
+import vilmiskes5 from "./palanga/vilmiskes/Vilmiskes5.jpg";
+import vilmiskes7 from "./palanga/vilmiskes/Vilmiskes7.jpg";
+import vilmiskes8 from "./palanga/vilmiskes/Vilmiskes8.jpg";
+import vilmiskes9 from "./palanga/vilmiskes/Vilmiskes9.jpg";
+import vilmiskes10 from "./palanga/vilmiskes/Vilmiskes10.jpg";
+import vilmiskes11 from "./palanga/vilmiskes/Vilmiskes11.jpg";
+import vilmiskes12 from "./palanga/vilmiskes/Vilmiskes12.jpg";
+import vilmiskes13 from "./palanga/vilmiskes/Vilmiskes13.jpg";
+import vilmiskes14 from "./palanga/vilmiskes/Vilmiskes14.jpg";
+
 export {
   renovation,
   brainwave,
@@ -238,4 +252,17 @@ export {
   melnarage2,
   melnarage3,
   melnarage4,
+  vilmiskes1,
+  vilmiskes2,
+  vilmiskes3,
+  vilmiskes4,
+  vilmiskes5,
+  vilmiskes7,
+  vilmiskes8,
+  vilmiskes9,
+  vilmiskes10,
+  vilmiskes11,
+  vilmiskes12,
+  vilmiskes13,
+  vilmiskes14,
 };
