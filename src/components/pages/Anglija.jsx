@@ -1,8 +1,10 @@
 import React from "react";
-import { heroBackground } from "../../assets";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Section from "../Section";
 import Footer from "../Footer";
 import Header from "../Header";
+
+import Carousel from "../Carouselpage";
 
 const Anglija = () => {
   return (
@@ -24,17 +26,7 @@ const Anglija = () => {
               Sveiki Atvyke I Anglijos{" "}
               <span className="inline-block relative">Gallerija </span>
             </h1>
-          </div>
-          <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-            <div className="opacity-5 absolute -top-[90%] left-1/2 w-[174%] -translate-x-1/2 md:-top-[93%] md:w-[174%] lg:-top-[22%]">
-              <img
-                src={heroBackground}
-                className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[25%] lg:-translate-y-[40%]"
-                width={1440}
-                height={1800}
-                alt="hero"
-              />
-            </div>
+            <Carousel />
           </div>
         </div>
       </Section>

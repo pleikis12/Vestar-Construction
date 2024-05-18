@@ -79,7 +79,6 @@ module.exports = {
     },
   },
   plugins: [
-    [require("daisyui")],
     plugin(function ({ addBase, addComponents, addUtilities }) {
       addBase({});
       addComponents({

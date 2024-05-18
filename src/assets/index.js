@@ -47,14 +47,7 @@ import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
 import modernhouse from "./pricing/housemodern.webp";
 
-import coins from "./roadmap/coins.png";
-import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
-import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -99,9 +92,10 @@ import terassos17 from "./terassos/Terassos17.jpg";
 import terassos18 from "./terassos/Terassos18.jpg";
 import terassos19 from "./terassos/Terassos19.jpg";
 
-import nightclub2 from "./anglija/epping-nightclub/Nightclub2.jpg";
-import nightclub3 from "./anglija/epping-nightclub/Nightclub3.jpg";
-import nightclub4 from "./anglija/epping-nightclub/Nightclub4.jpg";
+import Nightclub1 from "./anglija/epping-nightclub/Nightclub1.jpg";
+import Nightclub2 from "./anglija/epping-nightclub/Nightclub2.jpg";
+import Nightclub3 from "./anglija/epping-nightclub/Nightclub3.jpg";
+import Nightclub4 from "./anglija/epping-nightclub/Nightclub4.jpg";
 import nightclub5 from "./anglija/epping-nightclub/Nightclub5.jpg";
 import nightclub6 from "./anglija/epping-nightclub/Nightclub6.jpg";
 import nightclub7 from "./anglija/epping-nightclub/Nightclub7.jpg";
@@ -227,9 +221,10 @@ export {
   terassos17,
   terassos18,
   terassos19,
-  nightclub2,
-  nightclub3,
-  nightclub4,
+  Nightclub1,
+  Nightclub2,
+  Nightclub3,
+  Nightclub4,
   nightclub5,
   nightclub6,
   nightclub7,

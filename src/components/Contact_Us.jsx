@@ -44,18 +44,9 @@ const Contact_Us = () => {
 
           <div className="px-4 sm:w-2/3 lg:w-1/2 mx-auto">
             <div className="rounded-lg shadow-lg bg-slate-600/25 -mt-24 py-10 md:py-12 px-4 md:px-6 text-n-4">
-              <div className="grid grid-cols-2 gap-x-6 mb-12 mx-auto"></div>
-
-              <div>
-                <EmailJS />
-                <div className="opacity-15 absolute -top-[90%] md:-top-[15%] lg:-top-[22%] w-[250%] md:w-[190%] left-1/2 -translate-x-1/2">
-                  <img
-                    src={heroBackground}
-                    className="w-full scale-[1.7] md:scale-[1] md:-translate-y-[25%] lg:-translate-y-[38%]"
-                    width={1440}
-                    height={1800}
-                    alt="hero"
-                  />
+              <div className=" grid-cols-2 gap-x-6 mb-12 mx-auto">
+                <div>
+                  <EmailJS />
                 </div>
               </div>
             </div>

@@ -22,11 +22,13 @@ import {
   sliders04,
   yourlogo,
   terassos1,
-  nightclub2,
+  Nightclub2,
   darbenai1,
   pasakele1,
   melnarage1,
   vilmiskes1,
+  Nightclub3,
+  Nightclub4,
 } from "../assets";
 
 export const navigation = [
@@ -182,7 +184,7 @@ export const benefits = [
     title: "Anglijos Projektai",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero magni voluptate cumque non. Incidunt ut.",
     backgroundUrl: "assets/anglija/epping-nightclub/Nightclub2.jpg",
-    imageUrl: nightclub2,
+    imageUrl: Nightclub2,
     light: true,
     pageUrl: "../anglija",
   },
@@ -211,5 +213,26 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "https://facebook.com",
+  },
+];
+
+export const anglijaslider = [
+  {
+    image: { Nightclub2 },
+    title: "Nightclubas Epping",
+    subtitle: "Anglija",
+    interval: "1500",
+  },
+  {
+    image: { Nightclub3 },
+    title: "Nightclubas Epping",
+    subtitle: "Anglija",
+    interval: "500",
+  },
+  {
+    image: { Nightclub4 },
+    title: "Nightclubas Epping",
+    subtitle: "Anglija",
+    interval: "2500",
   },
 ];
