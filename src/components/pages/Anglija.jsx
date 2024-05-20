@@ -26,7 +26,20 @@ const Anglija = () => {
               Sveiki Atvyke I Anglijos{" "}
               <span className="inline-block relative">Gallerija </span>
             </h1>
-            <Carousel />
+            <div className="p">
+              <div className="flex justify-center border-4 border-slate-300 border-solid rounded-2xl flex-wrap align-content-center flex-col hover:border-slate-600 mb-[5rem] pb-4">
+                <h1 className="flex-col pt-4 font-bold text-lg">
+                  Epping Night Club
+                </h1>
+                <Carousel />
+              </div>
+              <div className="flex justify-center border-4 border-slate-300 border-solid rounded-2xl flex-wrap align-content-center flex-col hover:border-slate-600 pb-4">
+                <h1 className="flex-col pt-4 font-bold text-lg">
+                  Slough Penthouses
+                </h1>
+                <Carousel />
+              </div>
+            </div>
           </div>
         </div>
       </Section>

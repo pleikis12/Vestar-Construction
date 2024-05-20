@@ -13,11 +13,11 @@ import {
 
 const Carouselpage = () => {
   return (
-    <div className="flex justify-center pt-10">
+    <div className="pt-4 data-pause-hover">
       <Carousel slide={false}>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={Nightclub1}
             alt="First slide"
           />
@@ -28,7 +28,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={Nightclub2}
             alt="First slide"
           />
@@ -39,7 +39,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={Nightclub3}
             alt="Second slide"
           />
@@ -50,7 +50,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={Nightclub4}
             alt="Third slide"
           />
@@ -63,7 +63,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={nightclub5}
             alt="First slide"
           />
@@ -74,7 +74,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={nightclub6}
             alt="First slide"
           />
@@ -85,7 +85,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={nightclub7}
             alt="First slide"
           />
@@ -96,7 +96,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={nightclub8}
             alt="First slide"
           />
@@ -107,7 +107,7 @@ const Carouselpage = () => {
         </Carousel.Item>
         <Carousel.Item interval={5500}>
           <img
-            className="h-[35rem] w-[35rem]"
+            className="h-[40rem] w-[60rem]"
             src={nightclub9}
             alt="First slide"
           />
